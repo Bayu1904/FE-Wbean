@@ -158,9 +158,7 @@ export default function Cart() {
                       }}
                     >
                       <img
-                        src={
-                          "http://localhost:5000/uploads/" + item.product?.image
-                        }
+                        src={item.product?.image}
                         alt="img"
                         style={{ width: "100%" }}
                       />
